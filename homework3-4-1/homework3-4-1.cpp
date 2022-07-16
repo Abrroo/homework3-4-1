@@ -82,6 +82,8 @@ int main()
     {
         file_write << adr_arr[i] << std::endl;
     }
+    file_write.close();
+    delete[] adr_arr;
     
     std::cout << "Done!" << std::endl;
 
